@@ -1,4 +1,4 @@
-# 2024Aug15
+# 2024Aug16
 # Face Recognition Diffusion Model (FRDM) Project
 # This is initial simple test of facenet on LFW dataset
 

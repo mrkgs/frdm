@@ -1,4 +1,4 @@
-# 2024Aug15
+# 2024Aug16
 # Face Recognition Diffusion Model (FRDM) Project
 # This test gathers accuracy statistics of facenet on LFW dataset
 
@@ -21,7 +21,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 def read_pairs_lfw():
-    f = open('./lfw-py/pairs.txt', "r")
+    f = open('./lfw-py/pairs_10_300.txt', "r")
     pairs_file = f.readlines()
     firstline = pairs_file[0].strip('\n').split('\t')
     assert (len(firstline) == 2)
