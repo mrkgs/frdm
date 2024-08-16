@@ -21,7 +21,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 def read_pairs_lfw():
-    f = open('./lfw-py/pairs_10_300.txt', "r")
+    f = open('./lfw-py/pairs.txt', "r")
     pairs_file = f.readlines()
     firstline = pairs_file[0].strip('\n').split('\t')
     assert (len(firstline) == 2)
